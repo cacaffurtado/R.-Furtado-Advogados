@@ -1,0 +1,86 @@
+/*
+HEADER
+SECTION
+*/
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: url("/home/cacaffurtado/R.Furtado/imagens/Cartões.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll ;
+    background-position: center center;
+    background-size: cover;
+    }
+    header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: bolder;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    @media (min-width: 768px) {
+    header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 200px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: bolder;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    header.masthead .intro-text .intro-heading {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    }
+
+    /*
+    SERVICES 
+    SECTION
+    */
+
+    #services .container-fluid .section-heading{
+        font-size: 3.5rem;
+        font-style: ;
+        line-height: 30px;
+        margin-bottom: 5px;
+        font-family: 'Baloo Bhaina 2'
+    }
+
+    #services .container-fluid .section-subheading{
+        font-size: 1.35rem;
+        font-style: italic;
+        line-height: 30px;
+        margin-bottom: 5px;
+        font-family: 'Droid Serif' 
+    
+    }
+
+    #services .logo-small {
+        color: #cca876;
+        font-size: 50px;
+    }
+
+    #services .container-fluid .row .col-sm-4 .section-heading{
+        font-size: 2.5rem;
+        font-style: ;
+        line-height: 30px;
+        margin-bottom: 5px;
+        font-family: 'Quicksand'
+    }
