@@ -300,7 +300,7 @@
         color: white;
         border: 7px solid #8a0000;
         border-radius: 30%;
-        background-color: #cca876;
+        background-color: #ebd8be;
         }
         .timeline > li .timeline-image h4 {
         font-size: 10px;
@@ -409,3 +409,76 @@
         padding: 0 100px 20px 20px;
         }
         }
+
+
+    /*
+    TEAM
+    SECTION
+    */
+
+        #team .section-heading{
+            font-size: 3.5rem;
+            font-family: 'Quicksand';
+            font-weight: bolder;
+            line-height: 30px;
+            margin-bottom: 5px
+        }
+
+        #team .section-subheading{
+            font-size: initial;
+            font-style: italic;
+            line-height: 30px;
+            margin-bottom: 5px;
+            font-family: "Droid Serif"
+        }
+
+        #team .team-member .section-heading{
+            font-size: 2.5rem;
+            font-family: 'Quicksand';
+            line-height: 20px;
+            font-style: normal;
+            margin-bottom: 5px;
+        }
+
+        #team .team-member .section-subheading{
+            font-size: 1.5rem;
+            font-style: italic;
+            line-height: 30px;
+            margin-bottom: 5px;
+            font-family: 'Droid Serif'
+        }
+
+        .team-member {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+        .team-member img {
+            width: 20rem;
+            height: 20rem;
+            border: 0.5rem solid rgba(0, 0, 0, 0.1);
+        }
+        .team-member h4 {
+            
+            margin-top: 1.5rem;
+            margin-bottom: 0;
+        }
+
+    /*
+    CLIENTS
+    SECTION
+    */
+
+    .py-5 {
+        padding-top: 3rem !important;
+      }
+
+    .py-5 {
+      padding-bottom: 3rem !important;
+    }
+
+    
+
+
+
+
+    
