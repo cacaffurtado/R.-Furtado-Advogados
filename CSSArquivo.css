@@ -1,5 +1,12 @@
+    .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+    }
+   
 
-    
+
     /*
     HEADER
     SECTION
