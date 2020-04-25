@@ -433,7 +433,7 @@
         header.masthead {
             text-align: center;
             color: white;
-            background-image: url("/home/cacaffurtado/R.Furtado/imagens/Cartões.jpg");
+            background-image: url("imagens/Cartões.jpg");
             background-repeat: no-repeat;
             background-attachment: scroll ;
             background-position: center center;
