@@ -972,13 +972,18 @@
     SECTION
     */
 
-        .py-5 {
-            padding-top: 3rem !important;
-        }
+        #clients .container {
+            padding-bottom: 30px;
+            padding-top: 30px;
+        } /* conteine */
 
-        .py-5 {
-        padding-bottom: 3rem !important;
-        }
+        #clients img{
+            height: 40px;
+            width: 170px;
+            margin-bottom: 30px;
+            margin-top: 15px;
+            background-size: cover;         
+        } /* logo dos parceiros */
 
     /*
     CONTACT 
