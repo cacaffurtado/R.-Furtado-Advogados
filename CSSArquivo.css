@@ -71,7 +71,7 @@
         #services .container-fluid .section-heading{
             font-size: 3.5rem;
             font-style: normal ;
-            line-height: 30px;
+            line-height: 40px;
             margin-bottom: 5px;
             font-family: 'Quicksand'
         }
@@ -79,7 +79,7 @@
         #services .container-fluid .section-subheading{
             font-size: initial;
             font-style: italic;
-            line-height: 30px;
+            line-height: 50px;
             margin-bottom: 5px;
             font-family: 'Droid Serif';
         
@@ -115,15 +115,15 @@
         #portfolio .text-center .section-heading{
             font-size: 3.5rem;
             font-family: 'Quicksand';
-            line-height: 20px;
             font-style: normal;
+            line-height: 10px;  
             margin-bottom: 5px
         }
         
         #portfolio .text-center .section-subheading{
             font-size: initial;
             font-style: italic;
-            line-height: 30px;
+            line-height: 10px;
             margin-bottom: 5px;
             font-family: 'Droid Serif'
         }
@@ -237,15 +237,15 @@
         #timeline .text-center .section-heading {
         font-size: 3.5rem;
         font-family: 'Quicksand';
-        font-weight: bolder;
-        line-height: 30px;
+        font-weight: normal;
+        line-height: 10px;
         margin-bottom: 5px
         }
         
         #timeline .text-center .section-subheading{
         font-size: initial;
         font-style: italic;
-        line-height: 30px;
+        line-height: 10px;
         margin-bottom: 5px;
         font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
         }
@@ -312,9 +312,9 @@
         margin-left: 0;
         text-align: center;
         color: white;
-        border: 7px solid #8a0000;
+        border: 7px solid #0000000c;
         border-radius: 100%;
-        background-color: #ebd8be;
+        background-color: #810000bb;
         }
 
         .timeline > li .timeline-image h4 {
@@ -497,7 +497,7 @@
         .team-member img {
             width: 20rem;
             height: 20rem;
-            border: 0.5rem solid rgba(0, 0, 0, 0.1);
+            border: 0.5rem solid rgba(230, 0, 0, 0.089);
         }
         .team-member h4 {
             
@@ -529,7 +529,7 @@
             font-weight: bolder;
             line-height: 30px;
             margin-bottom: 5px;
-            color: #cca876
+            color: #e9b060
         }
 
         #contact .text-center .section-subheading{
@@ -538,7 +538,7 @@
             line-height: 30px;
             margin-bottom: 5px;
             font-family: "Droid Serif";
-            color: #cca876
+            color: #e9b060
         }
 
         section#contact {
@@ -610,6 +610,40 @@
             color: #8a0000;
         }
       
+
+    /*
+    FOOTER
+    SECTION
+    */
+
+    .container-fluid {
+    padding: 60px 50px;
+    }
+    
+    #footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #8a0000;
+    }
+
+    .panel-footer {
+    background-color: white !important;
+    }
+    
+    .panel-footer h3 {
+    font-size: 32px;
+    }
+    
+    .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+    }
+    .
+    panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+    }
 
     
 
