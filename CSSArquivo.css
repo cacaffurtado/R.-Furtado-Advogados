@@ -37,8 +37,6 @@
         list-style: none;
     }
     
-    
-    
     .nav-link {
         display: block;
         padding: 0.5rem 1rem;
@@ -580,6 +578,10 @@
             margin: 0 auto;
         } /* modal/imagem */
 
+        #portfolio .portfolio-item .portfolio-link img{
+            height: 20rem;
+        }
+
         #portfolio .portfolio-item .portfolio-link .portfolio-hover {
             display: flex;
             position: absolute;
@@ -633,6 +635,7 @@
         .portfolio-modal .modal-content h2 {
             font-size: 3rem;
             line-height: 3rem;
+            font-family: 'Quicksand';
         } /**/
 
         .portfolio-modal .modal-content p.item-intro {
@@ -653,8 +656,12 @@
             margin-bottom: 2rem;
         } /**/
 
-        #portifolio .portfolio-modal .close-modal {
-            
+        .portfolio-modal .modal-body img{
+            width: 45rem;
+            height: 30rem;
+        }
+
+        #portfolio .portfolio-modal .modal-content .close-modal {
             position: absolute;
             top: 1.5rem;
             right: 1.5rem;
@@ -662,7 +669,7 @@
             height: 3rem;
             cursor: pointer;
             background-color: transparent;
-        }/* imagem do 'x' que fecha o modal*/
+        } /* imagem do 'x' que fecha o modal*/
 
         .portfolio-modal .close-modal:hover {
             opacity: 0.3;
@@ -696,7 +703,7 @@
         .modal-dialog {
             position: relative;
             width: auto;
-            margin: 0.5rem;
+            margin: 3rem;
             pointer-events: none;
         } /* centraliza e amplifica o modal (configura) */
             
@@ -826,7 +833,7 @@
         } /* rodapé do modal */
 
         .modal-footer > * {
-            margin: 0.25rem;
+            margin: 1.25rem;
         } /* rodapé do modal */
 
         .modal-scrollbar-measure {
@@ -838,6 +845,7 @@
         } /* barra de rolamento */
 
         /* responsividade */
+
             @media (min-width: 576px) /*tela*/ {
 
                 .modal-dialog {
@@ -880,14 +888,6 @@
                     max-width: 1140px;
                 }
             }
-
-
-
-
-            
-
-
-
 
     /*
     TIMELINE
