@@ -214,6 +214,7 @@
         }
         .navbar-expand-sm .navbar-nav .dropdown-menu {
         position: absolute;
+        
         }
         .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: 0.5rem;
@@ -348,6 +349,7 @@
     }
     .navbar-expand .navbar-nav .dropdown-menu {
         position: absolute;
+        
     }
     .navbar-expand .navbar-nav .nav-link {
         padding-right: 0.5rem;
