@@ -578,7 +578,12 @@
             position: relative;
             display: block;
             margin: 0 auto;
+            height: 20rem;
         } /* modal/imagem */
+
+        #portfolio .portfolio-item .portfolio-link img{
+            height: 20rem;
+        }
 
         #portfolio .portfolio-item .portfolio-link .portfolio-hover {
             display: flex;
@@ -590,7 +595,7 @@
             justify-content: center;
             opacity: 0;
             transition: opacity ease-in-out 0.25s;
-        } /* modais/icone entrou */
+        } /* modal outside */
 
         #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
             font-size: 3.5rem;
@@ -658,8 +663,8 @@
             position: absolute;
             top: 1.5rem;
             right: 1.5rem;
-            width: 3rem;
-            height: 3rem;
+            width: 1rem;
+            height: 1rem;
             cursor: pointer;
             background-color: transparent;
         }/* imagem do 'x' que fecha o modal*/
@@ -798,6 +803,10 @@
             border-top-right-radius: calc(0.3rem - 1px);
         }
 
+        .modal-body h2{
+            font-family: "Quicksand";
+        }
+
         .modal-header .close {
             padding: 1rem 1rem;
             margin: -1rem -1rem -1rem auto;
@@ -806,7 +815,7 @@
         .modal-title {
             margin-bottom:0;
             line-height: 1.5;
-        }/**/
+        }/* título do modal */
 
         .modal-body {
             position: relative;
@@ -838,8 +847,19 @@
         } /* barra de rolamento */
 
         /* responsividade */
-            @media (min-width: 576px) /*tela*/ {
+            @media (min-width: 406px){
+                .modal .img-fluid {
+                    width: 60rem;
+                    height: 20rem;
+                }
+            }
 
+
+            @media (min-width: 576px) /*tela*/ {
+                .modal .img-fluid {
+                    width: 60rem;
+                    height: 30rem;
+                }
                 .modal-dialog {
                     max-width: 500px;
                     margin: 1.75rem auto;
@@ -867,26 +887,73 @@
 
             }
 
+            @media (min-width: 636px) /*tela*/ {
+                .modal .img-fluid {
+                    width: 50rem;
+                    height: 30rem;
+                }
+
+                .modal-dialog {
+                    max-width: 500px;
+                    margin: 99.75rem auto;
+                } /* configuração do modal */
+
+            @media (min-width: 776px) /*tela*/ {
+                .modal .img-fluid {
+                    width: 50rem;
+                    height: 30rem;
+                }
+
+                .modal-dialog {
+                    max-width: 500px;
+                    margin: 2.75rem auto;
+                } /* configuração do modal */
+
+            @media (min-width: 876px) /*tela*/ {
+                .modal .img-fluid {
+                    width: 50rem;
+                    height: 30rem;
+                }
+                
+                .modal-dialog-centered {
+                    min-height: calc(100% - 3.5rem);
+                } /* modal centralizado */
+
+                  .modal-dialog {
+                     max-width: 500px;
+                    margin: 1.75rem auto;
+                } /* configuração do modal */
+
             @media (min-width: 992px) {
             
                 .modal-lg,
                 .modal-xl {
                     max-width: 800px;
                 }
+
+                .modal-dialog-centered {
+                    min-height: calc(100% - 3.5rem);
+                } /* modal centralizado */
             }
+
+            @media (min-width: 1102px) {
+            
+                .modal-lg,
+                .modal-xl {
+                    max-width: 1000px;
+                }
+
+                .modal-dialog-centered {
+                    min-height: calc(100% - 3.5rem);
+                } /* modal centralizado */
+            }
+
 
             @media (min-width: 1200px) {
                 .modal-xl {
                     max-width: 1140px;
                 }
             }
-
-
-
-
-            
-
-
 
 
     /*
