@@ -578,11 +578,11 @@
             position: relative;
             display: block;
             margin: 0 auto;
-            height: 19rem;
+            height: 20rem;
         } /* modal/imagem */
 
         #portfolio .portfolio-item .portfolio-link img{
-            height: 19rem;
+            height: 20rem;
         }
 
         #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -947,6 +947,7 @@
                     min-height: calc(100% - 3.5rem);
                 } /* modal centralizado */
             }
+
 
             @media (min-width: 1200px) {
                 .modal-xl {
