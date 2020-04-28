@@ -35,6 +35,7 @@
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;
+        
     }
     
     .nav-link {
@@ -115,6 +116,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0.5rem 1rem;
+        opacity: 0.9;
     }
     .navbar .container,
     .navbar .container-fluid,
@@ -231,8 +233,10 @@
         flex-basis: auto;
         }
         .navbar-expand-sm .navbar-toggler {
-        display: none;
+        display: none ;
         }
+
+
     }
     @media (max-width: 767.98px) {
         .navbar-expand-md > .container,
@@ -452,6 +456,8 @@
             background-attachment: scroll ;
             background-position: center center ;
             background-size: cover;
+
+            margin-top: 9rem;
         } /* colocada a imagem */
 
         header.masthead .intro-text {
@@ -466,15 +472,7 @@
             margin-bottom: 25px;
             font-family: 'Droid Serif';
             font-style: italic;
-        } /* segundo texto */
-
-
-        header.masthead .container{
-            background-color: transparent;
-            background-size: cover;
-            background-position: right;
-            margin-bottom: -1rem;
-        }
+        } /* segundo texto */     
 
         @media (min-width: 768px) /*tela*/ {
             header.masthead .intro-text {
