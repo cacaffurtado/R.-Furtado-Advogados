@@ -1029,7 +1029,7 @@
 
         /*resposividade*/
 
-            @media (min-width: 408px)/*tela*/{
+            @media (min-width: 320px)/*tela*/{
                 .timeline .timeline-image .img-fluid {
                     width: 66.5px;
                     height: 66.5px;
