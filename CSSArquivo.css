@@ -22,7 +22,7 @@
         max-width: 100%;
         height: auto;
     }
-  
+
     /*
     NAVBAR 
     SECTION
@@ -534,7 +534,7 @@
 
         #portfolio .portfolio-item .portfolio-link img{
             height: 20rem;
-        }
+        } /* configurações das imagens */
 
         #portfolio .portfolio-item .portfolio-link .portfolio-hover {
             display: flex;
@@ -546,7 +546,7 @@
             justify-content: center;
             opacity: 0;
             transition: opacity ease-in-out 0.25s;
-        } /* modais/icone entrou */
+        } /* coloca o ícone */
 
         #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
             font-size: 3.5rem;
@@ -578,42 +578,50 @@
         .portfolio-modal .modal-dialog {
             margin: 1rem;
             max-width: 100vw;
-        } /**/
+        } /*modal como um todo*/
 
         .portfolio-modal .modal-content {
             padding-top: 6rem;
             padding-bottom: 6rem;
             text-align: center;
-        } /**/
+        } /* divisão do modal */
 
         .portfolio-modal .modal-content h2 {
             font-size: 3rem;
             line-height: 3rem;
             font-family: 'Quicksand';
-        } /**/
+        } /* título dentro do modal */
 
         .portfolio-modal .modal-content p.item-intro {
             font-style: italic;
             margin-bottom: 2rem;
             font-family: "Droid Serif";
-        } /**/
+        } /* subtítulo dentro do modal */
 
         .portfolio-modal .modal-content p {
             margin-bottom: 2rem;
-        } /**/
+            font-family: 'Droid Serif';
+            font-style: italic;
+            font-size: 1.65rem;
+        } /* texto dentro do modal*/
 
         .portfolio-modal .modal-content ul.list-inline {
             margin-bottom: 2rem;
-        } /**/
+        } /* características do projeto */
+
+        .portfolio-modal .modal-content ul.list-inline mark{
+            background-color: #cca876;
+            color: #fff;
+        }
 
         .portfolio-modal .modal-content img {
             margin-bottom: 2rem;
-        } /**/
+        } /* configurações da imagem do 'x' dentro do modal */
 
         .portfolio-modal .modal-body img{
             width: 45rem;
             height: 30rem;
-        }
+        } /* configuraçẽos da imagem do projeto dentro do modal */
 
         #portfolio .portfolio-modal .modal-content .close-modal {
             position: absolute;
