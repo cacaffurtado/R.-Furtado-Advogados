@@ -619,8 +619,9 @@
         } /* configurações da imagem do 'x' dentro do modal */
 
         .portfolio-modal .modal-body img{
+            display: flex;
             width: 45rem;
-            height: 40rem;
+            height: 35rem;
         } /* configuraçẽos da imagem do projeto dentro do modal */
 
         #portfolio .portfolio-modal .modal-content .close-modal {
@@ -1282,7 +1283,7 @@
             margin-top: 1.5rem;
             margin-bottom: 0;
         }
-
+        
     /*
     CLIENTS
     SECTION
